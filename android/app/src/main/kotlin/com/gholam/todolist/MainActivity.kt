@@ -1,0 +1,5 @@
+package com.gholam.todolist
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
