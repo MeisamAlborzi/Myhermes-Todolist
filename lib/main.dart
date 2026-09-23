@@ -122,7 +122,6 @@ class TodoPage extends StatefulWidget {
 
 class _TodoPageState extends State<TodoPage> {
   final List<Task> _tasks = [];
-  final _ctrl = TextEditingController();
   final _searchCtrl = TextEditingController();
   String _filterCat = 'همه';
   bool _showDone = true;
